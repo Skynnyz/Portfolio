@@ -11,7 +11,7 @@ decisao = decisao.toLowerCase();
 decisao = decisao.replace(/ /g,"")
 
 if (decisao != "crypt" && decisao != "decrypt" ){
-	alert("Preencha o campo *-crypt ou decrypt-* corretamente!!!")
+	alert("O valor *-" + decisao + "-* inserido no primeiro espaço é inválido!!!")
 	error++
 }
 if (insertPhrase == "" || insertPhrase == " "){
