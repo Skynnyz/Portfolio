@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+	<title>Dassa 1.5</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+
+				<form class="login100-form validate-form" name="form" methot="post" action="dassa2.html" onSubmit="return validacao();">
+					<span class="login100-form-title p-b-26">
+						Dassa 1.5
+					</span>
+					<span class="login100-form-title p-b-48">
+
+						<a title="Dassa 1.5"> <img class="projeto1" src="imgs/logodassa.png" alt="ProjetoCriptografia" width=80 height=80 /></a>
+					</span>
+					<!-- ESCOLHA -->
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is: a@b.c">
+						<input class="input100" id="cryptordecrypt" type="text" name="CryptOrDecrypt">
+						<span class="focus-input100" name="CryptOrDecrypt" data-placeholder="Crypt Ou Decrypt"></span>
+					</div>
+					<!-- ESCOLHA -->
+
+					<!-- FRASE -->
+					<div class="wrap-input100 validate-input" data-validate="Phrase">
+						<span class="btn-show-pass">
+							
+						</span>
+						<input class="input100" type="text" name="phrase">
+						<span class="focus-input100" name="phrase" data-placeholder="Frase"></span>
+					</div>
+					<!-- FRASE -->
+
+					<!-- CHAVE -->
+					<div class="wrap-input100 validate-input" data-validate="key">
+						<span class="btn-show-pass">
+							
+						</span>
+						<input class="input100" type="text" name="key">
+						<span class="focus-input100" name="key" data-placeholder="Key ( Se precisar )"></span>
+					</div>
+					<!-- CHAVE -->
+
+
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn" type="submit" name="submit">
+								Rodar
+							</button>
+
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	<script src="js/main.js"></script>
+	<script src="js/dassa.js"></script>
+</body>
+</html>
