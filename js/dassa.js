@@ -7,6 +7,9 @@ var cryptMessage = document.form.phrase.value
 var key = document.form.key.value
 var error = Number(0)
 
+decisao = decisao.toLowerCase();
+decisao = decisao.replace(/ /g,"")
+
 if (decisao != "crypt" && decisao != "decrypt" ){
 	alert("Preencha o campo *-crypt ou decrypt-* corretamente!!!")
 	error++
