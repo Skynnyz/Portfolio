@@ -10,10 +10,14 @@ var error = Number(0)
 decisao = decisao.toLowerCase();
 decisao = decisao.replace(/ /g,"")
 
-if (decisao != "crypt" && decisao != "decrypt" ){
+if ( decisao == "" || decisao == " "){
+	alert("O primeiro espaço precisa ser preenchido!!!")
+	error++
+}else if (decisao != "crypt" && decisao != "decrypt" ){
 	alert("O valor *-" + decisao + "-* inserido no primeiro espaço é inválido!!!")
 	error++
 }
+
 if (insertPhrase == "" || insertPhrase == " "){
 	alert("Preencha o campo *-frase-* !!!")
 	error++
